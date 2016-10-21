@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Time Paid Journey",
+        "description": "",
+        "id": "times-paid-journey;time-paid-journey",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6481048441,
+              "error_message": "java.lang.NullPointerException\r\n\tat Acquisition.AcquisitionPage.acceptCookies(AcquisitionPage.java:23)\r\n\tat StepDefinations.TimespaidStepDef.i_am_on_web_page_with_promocode(TimespaidStepDef.java:27)\r\n\tat ✽.Given I am on \"Times\" web page with \"TEST_MP110\" promocode(TimesPaidJourney.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on \"Times\" web page with \"TEST_MP110\" promocode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Times",
+                  "offset": 9
+                },
+                {
+                  "val": "TEST_MP110",
+                  "offset": 31
+                }
+              ],
+              "location": "TimespaidStepDef.i_am_on_web_page_with_promocode(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I fill personal details",
+            "match": {
+              "location": "TimespaidStepDef.i_fill_personal_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I submit personal details",
+            "match": {
+              "location": "TimespaidStepDef.i_submit_personal_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I choose \"credit card\" payment option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "credit card",
+                  "offset": 10
+                }
+              ],
+              "location": "TimespaidStepDef.i_choose_payment_option(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I fill card details",
+            "match": {
+              "location": "TimespaidStepDef.i_fill_card_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I fill billing address section",
+            "match": {
+              "location": "TimespaidStepDef.i_fill_billing_address_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I choose home delivery option",
+            "match": {
+              "location": "TimespaidStepDef.i_choose_home_delivery_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I submit payment details",
+            "match": {
+              "location": "TimespaidStepDef.i_submit_payment_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I should see review Order section",
+            "match": {
+              "location": "TimespaidStepDef.i_should_see_review_Order_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I agree to \"Times\" terms and condition",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Times",
+                  "offset": 12
+                }
+              ],
+              "location": "TimespaidStepDef.i_agree_to_terms_and_condition(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I click submit the review order form",
+            "match": {
+              "location": "TimespaidStepDef.i_click_submit_the_review_order_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I should see Times Thank You page",
+            "match": {
+              "location": "TimespaidStepDef.i_should_see_Times_Thank_You_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I take screenshot of the current state",
+            "match": {
+              "location": "TimespaidStepDef.i_take_screenshot_of_the_current_state()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Times"
+          }
+        ]
+      }
+    ],
+    "name": "Times paid Journey",
+    "description": "As a Times customer\r\nI want to register Times with Creditcard payment\r\nSo that I can access the Times content",
+    "id": "times-paid-journey",
+    "keyword": "Feature",
+    "uri": "TimesPaidJourney.feature"
+  }
+]
